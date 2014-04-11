@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85E13AFD18F7A68B00F9D30E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E13AFC18F7A68B00F9D30E /* Foundation.framework */; };
+		85E13AFF18F7A68B00F9D30E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E13AFE18F7A68B00F9D30E /* CoreGraphics.framework */; };
+		85E13B0118F7A68B00F9D30E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E13B0018F7A68B00F9D30E /* UIKit.framework */; };
+		85E13B0318F7A68B00F9D30E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E13B0218F7A68B00F9D30E /* SpriteKit.framework */; };
+		85E13B0918F7A68B00F9D30E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85E13B0718F7A68B00F9D30E /* InfoPlist.strings */; };
+		85E13B0B18F7A68B00F9D30E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E13B0A18F7A68B00F9D30E /* main.m */; };
+		85E13B0F18F7A68B00F9D30E /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E13B0E18F7A68B00F9D30E /* GSAppDelegate.m */; };
+		85E13B1218F7A68B00F9D30E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E13B1018F7A68B00F9D30E /* Main_iPhone.storyboard */; };
+		85E13B1518F7A68B00F9D30E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E13B1318F7A68B00F9D30E /* Main_iPad.storyboard */; };
+		85E13B1818F7A68B00F9D30E /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E13B1718F7A68B00F9D30E /* GSViewController.m */; };
+		85E13B1B18F7A68B00F9D30E /* GSMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E13B1A18F7A68B00F9D30E /* GSMyScene.m */; };
+		85E13B1D18F7A68B00F9D30E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E13B1C18F7A68B00F9D30E /* Spaceship.png */; };
+		85E13B1F18F7A68B00F9D30E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E13B1E18F7A68B00F9D30E /* Images.xcassets */; };
+		85E13B2618F7A68C00F9D30E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E13B2518F7A68C00F9D30E /* XCTest.framework */; };
+		85E13B2718F7A68C00F9D30E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E13AFC18F7A68B00F9D30E /* Foundation.framework */; };
+		85E13B2818F7A68C00F9D30E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E13B0018F7A68B00F9D30E /* UIKit.framework */; };
+		85E13B3018F7A68C00F9D30E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85E13B2E18F7A68C00F9D30E /* InfoPlist.strings */; };
+		85E13B3218F7A68C00F9D30E /* GreyScaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E13B3118F7A68C00F9D30E /* GreyScaleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85E13B2918F7A68C00F9D30E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E13AF118F7A68A00F9D30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E13AF818F7A68A00F9D30E;
+			remoteInfo = GreyScale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85E13AF918F7A68B00F9D30E /* GreyScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreyScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E13AFC18F7A68B00F9D30E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85E13AFE18F7A68B00F9D30E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85E13B0018F7A68B00F9D30E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85E13B0218F7A68B00F9D30E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		85E13B0618F7A68B00F9D30E /* GreyScale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreyScale-Info.plist"; sourceTree = "<group>"; };
+		85E13B0818F7A68B00F9D30E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85E13B0A18F7A68B00F9D30E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85E13B0C18F7A68B00F9D30E /* GreyScale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreyScale-Prefix.pch"; sourceTree = "<group>"; };
+		85E13B0D18F7A68B00F9D30E /* GSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAppDelegate.h; sourceTree = "<group>"; };
+		85E13B0E18F7A68B00F9D30E /* GSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAppDelegate.m; sourceTree = "<group>"; };
+		85E13B1118F7A68B00F9D30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		85E13B1418F7A68B00F9D30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		85E13B1618F7A68B00F9D30E /* GSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
+		85E13B1718F7A68B00F9D30E /* GSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
+		85E13B1918F7A68B00F9D30E /* GSMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSMyScene.h; sourceTree = "<group>"; };
+		85E13B1A18F7A68B00F9D30E /* GSMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSMyScene.m; sourceTree = "<group>"; };
+		85E13B1C18F7A68B00F9D30E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		85E13B1E18F7A68B00F9D30E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85E13B2418F7A68C00F9D30E /* GreyScaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreyScaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E13B2518F7A68C00F9D30E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		85E13B2D18F7A68C00F9D30E /* GreyScaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreyScaleTests-Info.plist"; sourceTree = "<group>"; };
+		85E13B2F18F7A68C00F9D30E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85E13B3118F7A68C00F9D30E /* GreyScaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreyScaleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85E13AF618F7A68A00F9D30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E13AFF18F7A68B00F9D30E /* CoreGraphics.framework in Frameworks */,
+				85E13B0118F7A68B00F9D30E /* UIKit.framework in Frameworks */,
+				85E13B0318F7A68B00F9D30E /* SpriteKit.framework in Frameworks */,
+				85E13AFD18F7A68B00F9D30E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E13B2118F7A68C00F9D30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E13B2618F7A68C00F9D30E /* XCTest.framework in Frameworks */,
+				85E13B2818F7A68C00F9D30E /* UIKit.framework in Frameworks */,
+				85E13B2718F7A68C00F9D30E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85E13AF018F7A68A00F9D30E = {
+			isa = PBXGroup;
+			children = (
+				85E13B0418F7A68B00F9D30E /* GreyScale */,
+				85E13B2B18F7A68C00F9D30E /* GreyScaleTests */,
+				85E13AFB18F7A68B00F9D30E /* Frameworks */,
+				85E13AFA18F7A68B00F9D30E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85E13AFA18F7A68B00F9D30E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85E13AF918F7A68B00F9D30E /* GreyScale.app */,
+				85E13B2418F7A68C00F9D30E /* GreyScaleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85E13AFB18F7A68B00F9D30E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E13AFC18F7A68B00F9D30E /* Foundation.framework */,
+				85E13AFE18F7A68B00F9D30E /* CoreGraphics.framework */,
+				85E13B0018F7A68B00F9D30E /* UIKit.framework */,
+				85E13B0218F7A68B00F9D30E /* SpriteKit.framework */,
+				85E13B2518F7A68C00F9D30E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85E13B0418F7A68B00F9D30E /* GreyScale */ = {
+			isa = PBXGroup;
+			children = (
+				85E13B0D18F7A68B00F9D30E /* GSAppDelegate.h */,
+				85E13B0E18F7A68B00F9D30E /* GSAppDelegate.m */,
+				85E13B1018F7A68B00F9D30E /* Main_iPhone.storyboard */,
+				85E13B1318F7A68B00F9D30E /* Main_iPad.storyboard */,
+				85E13B1618F7A68B00F9D30E /* GSViewController.h */,
+				85E13B1718F7A68B00F9D30E /* GSViewController.m */,
+				85E13B1918F7A68B00F9D30E /* GSMyScene.h */,
+				85E13B1A18F7A68B00F9D30E /* GSMyScene.m */,
+				85E13B1C18F7A68B00F9D30E /* Spaceship.png */,
+				85E13B1E18F7A68B00F9D30E /* Images.xcassets */,
+				85E13B0518F7A68B00F9D30E /* Supporting Files */,
+			);
+			path = GreyScale;
+			sourceTree = "<group>";
+		};
+		85E13B0518F7A68B00F9D30E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85E13B0618F7A68B00F9D30E /* GreyScale-Info.plist */,
+				85E13B0718F7A68B00F9D30E /* InfoPlist.strings */,
+				85E13B0A18F7A68B00F9D30E /* main.m */,
+				85E13B0C18F7A68B00F9D30E /* GreyScale-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85E13B2B18F7A68C00F9D30E /* GreyScaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				85E13B3118F7A68C00F9D30E /* GreyScaleTests.m */,
+				85E13B2C18F7A68C00F9D30E /* Supporting Files */,
+			);
+			path = GreyScaleTests;
+			sourceTree = "<group>";
+		};
+		85E13B2C18F7A68C00F9D30E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85E13B2D18F7A68C00F9D30E /* GreyScaleTests-Info.plist */,
+				85E13B2E18F7A68C00F9D30E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85E13AF818F7A68A00F9D30E /* GreyScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E13B3518F7A68C00F9D30E /* Build configuration list for PBXNativeTarget "GreyScale" */;
+			buildPhases = (
+				85E13AF518F7A68A00F9D30E /* Sources */,
+				85E13AF618F7A68A00F9D30E /* Frameworks */,
+				85E13AF718F7A68A00F9D30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreyScale;
+			productName = GreyScale;
+			productReference = 85E13AF918F7A68B00F9D30E /* GreyScale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85E13B2318F7A68C00F9D30E /* GreyScaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E13B3818F7A68C00F9D30E /* Build configuration list for PBXNativeTarget "GreyScaleTests" */;
+			buildPhases = (
+				85E13B2018F7A68C00F9D30E /* Sources */,
+				85E13B2118F7A68C00F9D30E /* Frameworks */,
+				85E13B2218F7A68C00F9D30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85E13B2A18F7A68C00F9D30E /* PBXTargetDependency */,
+			);
+			name = GreyScaleTests;
+			productName = GreyScaleTests;
+			productReference = 85E13B2418F7A68C00F9D30E /* GreyScaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85E13AF118F7A68A00F9D30E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Noah budarf";
+				TargetAttributes = {
+					85E13B2318F7A68C00F9D30E = {
+						TestTargetID = 85E13AF818F7A68A00F9D30E;
+					};
+				};
+			};
+			buildConfigurationList = 85E13AF418F7A68A00F9D30E /* Build configuration list for PBXProject "GreyScale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85E13AF018F7A68A00F9D30E;
+			productRefGroup = 85E13AFA18F7A68B00F9D30E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85E13AF818F7A68A00F9D30E /* GreyScale */,
+				85E13B2318F7A68C00F9D30E /* GreyScaleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85E13AF718F7A68A00F9D30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E13B1D18F7A68B00F9D30E /* Spaceship.png in Resources */,
+				85E13B1F18F7A68B00F9D30E /* Images.xcassets in Resources */,
+				85E13B1518F7A68B00F9D30E /* Main_iPad.storyboard in Resources */,
+				85E13B1218F7A68B00F9D30E /* Main_iPhone.storyboard in Resources */,
+				85E13B0918F7A68B00F9D30E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E13B2218F7A68C00F9D30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E13B3018F7A68C00F9D30E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85E13AF518F7A68A00F9D30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E13B1B18F7A68B00F9D30E /* GSMyScene.m in Sources */,
+				85E13B0F18F7A68B00F9D30E /* GSAppDelegate.m in Sources */,
+				85E13B1818F7A68B00F9D30E /* GSViewController.m in Sources */,
+				85E13B0B18F7A68B00F9D30E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E13B2018F7A68C00F9D30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E13B3218F7A68C00F9D30E /* GreyScaleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85E13B2A18F7A68C00F9D30E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85E13AF818F7A68A00F9D30E /* GreyScale */;
+			targetProxy = 85E13B2918F7A68C00F9D30E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85E13B0718F7A68B00F9D30E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E13B0818F7A68B00F9D30E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85E13B1018F7A68B00F9D30E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E13B1118F7A68B00F9D30E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		85E13B1318F7A68B00F9D30E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E13B1418F7A68B00F9D30E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		85E13B2E18F7A68C00F9D30E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E13B2F18F7A68C00F9D30E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85E13B3318F7A68C00F9D30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85E13B3418F7A68C00F9D30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85E13B3618F7A68C00F9D30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreyScale/GreyScale-Prefix.pch";
+				INFOPLIST_FILE = "GreyScale/GreyScale-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85E13B3718F7A68C00F9D30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreyScale/GreyScale-Prefix.pch";
+				INFOPLIST_FILE = "GreyScale/GreyScale-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		85E13B3918F7A68C00F9D30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreyScale.app/GreyScale";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreyScale/GreyScale-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GreyScaleTests/GreyScaleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		85E13B3A18F7A68C00F9D30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreyScale.app/GreyScale";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreyScale/GreyScale-Prefix.pch";
+				INFOPLIST_FILE = "GreyScaleTests/GreyScaleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85E13AF418F7A68A00F9D30E /* Build configuration list for PBXProject "GreyScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E13B3318F7A68C00F9D30E /* Debug */,
+				85E13B3418F7A68C00F9D30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E13B3518F7A68C00F9D30E /* Build configuration list for PBXNativeTarget "GreyScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E13B3618F7A68C00F9D30E /* Debug */,
+				85E13B3718F7A68C00F9D30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85E13B3818F7A68C00F9D30E /* Build configuration list for PBXNativeTarget "GreyScaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E13B3918F7A68C00F9D30E /* Debug */,
+				85E13B3A18F7A68C00F9D30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85E13AF118F7A68A00F9D30E /* Project object */;
+}
